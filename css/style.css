@@ -1,0 +1,144 @@
+header .navbar .nav-link , header .navbar .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+header .navbar .nav-item{
+    margin-right: 1.5rem;
+}
+
+
+.v-sep{
+    position: relative;
+    padding: 0 1.5rem;
+}
+
+.v-sep::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 16px;
+    margin-top: -8px;
+    border-left: 1px  solid rgba(255 , 255, 255 ,0.5);}
+  
+.v-sep:last-child{
+    padding-right: 0;
+}
+#hero, #hero .carousel-item {
+    height: 100vh;
+    overflow: hidden;
+}
+#hero .carousel-item img{
+    object-fit: cover;
+    height: 100%;
+}
+#hero .carousel-caption{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+#hero .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#hero .carousel-item{
+    cursor: ew-resize;
+}
+.features{
+    padding: 80px;
+}
+.features i {
+    background-color: #ff214f;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.features p {
+    color: gray;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     margin-bottom: 100px;
+    padding: 10px;
+    font-size: 17px;
+}
+.features h6 {
+    font-size: 17px;
+}
+.nav-link1{
+    color: gray;
+    padding: 20px;
+    font-size: 13px;
+   
+}
+
+.shuffle-imges{
+    margin-top: 50px;
+}
+.row .col-sm{
+    padding: 0;
+}
+.row img{
+    width: 100%;
+}
+.widith1{
+    width: 9rem;
+    height:9rem;
+   
+}
+.stats1{
+    padding: 100px 0;
+    color: rgb(194, 186, 186);
+    text-align: center;
+    
+}
+.stats1 .num {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.stats1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+.stats{
+    
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+   
+}
+.choose-us img {
+    width: 100%;
+    height: 38rem;
+}
+.choose-us .col-6{
+    padding: 0;
+}
+.choose-us .col-6:last-child{
+    background-color: #f7f7f7;
+}
+.choose-us .h1{
+    margin: 50px;
+    font-size: 3rem;
+}
+.choose-us p{
+    font-size: 15px;
+    margin: 50px;
+}
+.choose-us a{
+    
+    background-color: #000;
+    color: #fff;
+    
+}
+.choose-us{
+    margin-top: 50px;
+}
