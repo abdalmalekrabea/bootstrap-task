@@ -3,6 +3,7 @@ header .navbar .nav-link , header .navbar .nav-link.active {
 }
 header .navbar .nav-item{
     margin-right: 1.5rem;
+    
 }
 
 
@@ -117,7 +118,7 @@ header .navbar .nav-item{
 }
 .choose-us img {
     width: 100%;
-    height: 38rem;
+    height: 39rem;
 }
 .choose-us .col-6{
     padding: 0;
@@ -142,3 +143,9 @@ header .navbar .nav-item{
 .choose-us{
     margin-top: 50px;
 }
+.cap{
+  
+    margin-left: 500px;
+    margin-bottom: 160px;
+} 
+
